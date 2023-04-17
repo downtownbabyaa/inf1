@@ -1,0 +1,530 @@
+#m1{
+margin-top: 10px;
+}
+#pic{
+
+height: 320px;
+}
+#pic figure{
+
+font-size: 0;
+}
+#pic figure img{
+height: 320px;
+background-image: url(https://cdn.inflearn.com/public/main_sliders/2bb11b09-e564-4191-ab4a-c4032d429136/%5B%E1%84%90%E1%85%A2%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B5%E1%86%BC%5D%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%86%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A6%E1%84%87%E1%85%A6%E1%86%AF_521.webp);
+background-repeat: no-repeat;
+background-size: contain;
+width: 100%;
+background-position-x: right 15%;
+background-color: #020000;
+}
+#m2{
+
+height: 64px;
+border-bottom: 1px solid #ccc;
+margin-bottom: 60px;
+align-items: center;
+}
+#m21{
+
+}
+#m21 ul{
+
+padding: 5px 10px;
+display: flex;
+justify-content: space-around;
+}
+#m21 ul li{
+
+}
+#m21 ul li a{
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+#m3{
+  height: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#m3 .h2{
+  margin-bottom: 30px;
+}
+#search2{
+  font-size: 0;
+  position: relative;
+}
+#search2 input{
+
+}
+#search2 input:first-child{
+  width: 580px;
+  height: 54px;
+  background-color: #e3f8ef;
+  box-shadow: 2px 4px #cccccc52;
+  border-radius: 50px;
+  padding: 20px;
+  border: 1px solid #69d2a5;
+}
+#search2 .hei41{
+  position: absolute;
+  top: calc(54px / 2 - (20px / 2));
+  left: calc(100% - 580px / 2 - 580px / 7);
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/search.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  scale: 1.5;
+}
+#m3 ul{
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#m3 ul li{
+  width: 100px;
+  height: 93px;
+  display: block;
+}
+#m3 ul li a{
+
+}
+#m3 ul li a:hover > p{
+  
+  color: #009d5a;
+}
+#m3 > ul li a figure{
+  width: 36px;
+  height: 36px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: calc((100% - 36px) / 3);
+}
+#m3 > ul li a p{
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+#m3 ul li:nth-child(1) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/byManage.png);
+}
+#m3 ul li:nth-child(2) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/_byMyself.png);
+}
+#m3 ul li:nth-child(3) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/spring.png);
+}
+#m3 ul li:nth-child(4) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/game.png);
+}
+#m3 ul li:nth-child(5) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/ux-ui.png);
+}
+#m3 ul li:nth-child(6) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/x2/ChatGPT.png);
+}
+#m3 ul li:nth-child(7) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/x2/_coding-test.png);
+}
+#m3 ul li:nth-child(8) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/security.png);
+}
+#m3 ul li:nth-child(9) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/x2/dev-ops.png);
+}
+#m3 ul li:nth-child(10) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/front-end.png);
+}
+#m3 ul li:nth-child(11) a figure{
+  background-image: url(https://cdn.inflearn.com/public/curation/python.png);
+}
+#m4{
+  height: auto;
+  margin-bottom: 60px;
+}
+#m4 h2{
+  margin-bottom: 20px;
+}
+#m4 h2::after{
+  content: "";
+  border: 2px solid #111;
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: translateY(-1px) rotate(45deg);
+}
+#m4 h2 a{
+
+}
+#m4 > p{
+  margin-bottom: 20px;
+}
+#m4 ul{
+  justify-content: space-between;
+  position: relative;
+}
+#m4 ul li{
+  position: relative;
+}
+#m4 ul li > a{
+  width: 222px;
+  height: 310px;
+  display: block;
+}
+#m4 ul li > a:hover #m41{
+  display: block;
+}
+#m4 ul li:first-child a{
+  background-image: url(https://cdn.inflearn.com/public/courses/330075/cover/56b8da2a-c02d-4812-8ae0-a5dad11a3aab/fullstack-html-css-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#m4 ul li:nth-child(2) a{
+  background-image: url(https://cdn.inflearn.com/public/course-324063-cover/3c856a69-e213-4394-8317-1469386b82cc);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#m4 ul li:nth-child(3) a{
+  background-image: url(https://cdn.inflearn.com/public/courses/330251/cover/4070c15c-d7f0-487b-a773-08622aacc817/330251-eng.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#m4 ul li:nth-child(4) a{
+  background-image: url(https://cdn.inflearn.com/public/courses/329442/cover/9b564bc1-433b-4a85-a2f2-147bf198bdc3/329442-eng.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#m4 ul li:nth-child(5) a{
+  background-image: url(https://cdn.inflearn.com/public/courses/330647/cover/3ee9fb84-0dc7-4d5a-bc5a-aa88263452fb/330647-eng.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#m4 ul li a > h3{
+  width: 222px;
+  line-height: 1.4;
+  position: absolute;
+  top: 155px;
+}
+#m4 ul li a > p{
+  position: absolute;
+  top: 203px;
+}
+#m41{
+  position: absolute;
+  top: 0;
+  width: 222px;
+  height: 310px;
+  background-color: #111111cf;
+  display: none;
+  padding: 10px;
+}
+#m41 h3{
+  color: white;
+  margin-bottom: 15px;
+}
+#m41 p{
+  color: #c5ebf8;
+  line-height: 1.4;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#m41 .blank{
+  height: 20px;
+}
+#m5{
+  height: auto;
+}
+#m5 > h2{
+  margin-bottom: 20px;
+}
+#m5 h2::after{
+  content: "";
+  border: 2px solid #111;
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: translateY(-1px) rotate(45deg);
+  margin-left: 60px;
+}
+#m5 > h2 a{
+  position: relative;
+}
+#m5 > h2 a .sca{
+  position: absolute;
+  scale: 0.5;
+  bottom: 0;
+  right: -88px;
+  color: #fa4c3d;
+}
+#m5 > p{
+  margin-bottom: 20px;
+}
+#m6{
+  height: auto;
+  margin-bottom: 60px;
+}
+#m6 > ul{
+  justify-content: space-between;
+}
+#m6 > ul li{
+  width: 270px;
+  height: 196px;
+}
+#m6 > ul li a{
+
+}
+#m6 > ul li a figure{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#m6 > ul li:first-child a figure{
+  background-image: url(https://cdn.inflearn.com/public/roadmaps/c6c69670-7155-423a-bc3a-80d9d3386953/roadmap-93.png);
+}
+#m6 > ul li:nth-child(2) figure{
+  background-image: url(https://cdn.inflearn.com/public/roadmaps/632/cover/c3fa4c26-adc1-49e4-bd31-8f4d86e806ae/632-thumbnail.png);
+}
+#m6 > ul li:nth-child(3) figure{
+  background-image: url(https://cdn.inflearn.com/public/roadmaps/fa1e0dbf-1786-4d81-bd22-d412b7937500/roadmap-77.png);
+}
+#m6 > ul li:nth-child(4) figure{
+  background-image: url(https://cdn.inflearn.com/public/roadmaps/642/cover/7dc5e6fe-5d91-48a3-94d8-349c7cb23235/642-thumbnail.png);
+}
+#m6 > ul li a figure img{
+  height: 141px;
+}
+#m6 > ul li a h4{
+  margin-top: 10px;
+}
+#m7{
+  margin-bottom: 20px
+}
+#m7 > h2{
+  margin-bottom: 20px;
+}
+#m7 h2::after{
+  content: "";
+  border: 2px solid #111;
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: translateY(-1px) rotate(45deg);
+}
+#m7 > h2 a{
+
+}
+#m8{
+  height: auto;
+  margin-bottom: 40px;
+}
+#m8 > ul{
+  justify-content: space-between;
+}
+#m8 > ul li{
+  width: 362px;
+  height: 288px;
+}
+#m8 > ul li a{
+
+}
+#m8 > ul li a figure{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 0 2px 5px #888;
+}
+#m8 > ul li:first-child a figure{
+  background-image: url(https://cdn.inflearn.com/public/files/pages/06a782d7-12de-416f-92e4-a544df5550b8/[이벤트]창립기념일_7th_628.png);
+}
+#m8 > ul li:nth-child(2) a figure{
+  background-image: url(https://cdn.inflearn.com/public/files/pages/9d02d597-374b-41ca-a1e9-d5e9336699d0/infmation-61.png);
+}
+#m8 > ul li:nth-child(3) a figure{
+  background-image: url(https://cdn.inflearn.com/public/files/pages/32b7158f-48d1-4465-a1ae-6278b7684ed0/infmation-60-main.png);
+}
+#m8 > ul li a figure img{
+  height: 189px;
+}
+#m8 > ul li a h4{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#m8 > ul li a p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 44px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#m9{
+  height: 180px;
+  background-image: url("https://cdn.inflearn.com/public/main_sliders/38744ba0-b12a-491a-9ca2-43375c3905ba/share-you.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 35px;
+  margin-bottom: 70px;
+}
+#m9 > div{
+
+}
+#m9 > div h3{
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+#m9 > div a{
+  background-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 15px;
+  color: #1dc078;
+}
+#m10{
+  height: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#m10 > h2{
+  margin-bottom: 25px;
+}
+#m10 > figure{
+  font-size: 0;
+  height: 28px;
+}
+#m10 > figure img{
+  background-size: contain;
+  height: 100%;
+  margin: 0 10px;
+  filter: grayscale(1);
+}
+#m10 > figure img:nth-child(1){
+  width: 65px;
+}
+#m10 > figure img:nth-child(2){
+  width: 81px;
+}
+#m10 > figure img:nth-child(3){
+  width: 28px;
+}
+#m10 > figure img:nth-child(4){
+  width: 112px;
+}
+#m10 > figure img:nth-child(5){
+  width: 79px;
+}
+#m10 > figure img:nth-child(6){
+  width: 134px;
+}
+#m10 > figure img:nth-child(7){
+  width: 72px;
+}
+#m10 > figure img:nth-child(8){
+  width: 92px;
+}
+#m10 > figure img:nth-child(9){
+  width: 45px;
+}
+#m11{
+  background-color: #f9f9f9;
+  height: 512px;
+  padding: 55px 0;
+}
+#m12{
+
+}
+#m12 > h2{
+  margin-bottom: 15px;
+}
+#m12 > p{
+
+}
+#m13{
+  margin-top: 20px;
+  justify-content: space-between;
+}
+#m14{
+  width: 370px;
+  height: 330px;
+  background-color: white;
+  box-shadow: 0 2px 2px 2px #ccc;
+  border-radius: 5px;
+  padding: 44px;
+}
+#m14 > h3{
+
+}
+#m14 > p{
+  margin-top: 20px;
+  line-height: 2;
+  height: 112px;
+}
+#m14 > a{
+  background-color: #1dc078;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* 하단 영역 */
+
+footer{
+  
+}
+#m15{
+  height: 438px;
+  background-color: #303740;
+}
+#m16{
+  width: 1100px;
+}
+#m16 > ul{
+  padding: 40px 0;
+  justify-content: space-between;
+}
+#m16 > #line{
+  width: 100%;
+  height: 0.3px;
+  background-color: #bdbdbd38;
+}
+#m16 > ul li{
+  height: 197px;
+  font-size: 0;
+  scale: 0.9;
+}
+#m16 > ul li h4{
+  color: white;
+  margin: 10px 0 20px;
+}
+#m16 > ul li a{
+  color: #bdbdbd;
+  display: block;
+  margin-top: 20px;
+}
+#m16 > ul li a:hover{
+  text-decoration: underline;
+}
