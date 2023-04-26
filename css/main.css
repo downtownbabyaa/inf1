@@ -2,11 +2,9 @@
 margin-top: 10px;
 }
 #pic{
-
 height: 320px;
 }
 #pic figure{
-
 font-size: 0;
 }
 #pic figure img{
@@ -19,7 +17,6 @@ background-position-x: right 15%;
 background-color: #020000;
 }
 #m2{
-
 height: 64px;
 border-bottom: 1px solid #ccc;
 margin-bottom: 60px;
@@ -29,8 +26,6 @@ align-items: center;
 
 }
 #m21 ul{
-
-padding: 5px 10px;
 display: flex;
 justify-content: space-around;
 }
@@ -38,14 +33,18 @@ justify-content: space-around;
 
 }
 #m21 ul li a{
-  width: 90px;
-  height: 30px;
+  padding: 7px 15px;
   border-radius: 20px;
   display: flex;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+#m21 ul li a:hover{
+  border: 2px solid #00c471;
+  color: #00c471;
 }
 #m3{
   height: auto;
